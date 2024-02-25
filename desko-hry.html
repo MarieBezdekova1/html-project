@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>muj prvni web + neco</title>
+   <!-- <script src="script.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+    <h1>Moje oblíbené deskové hry</h1>
+
+    <table cellspacing="1" bgcolor="#000000" id="tabulka">
+        <thead>
+            <tr bgcolor="#ffffff">
+                <th></th>
+                <th>Název</th>
+                <th>Počet hráčů</th>
+                <th>Doba trvání</th>
+                <th>Moje hodnocení<br></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr bgcolor="#ffffff">
+                <td>1<br></td>
+                <td>Paleo</td>
+                <td>1-3<br></td>
+                <td>60 min</td>
+                <td>5/5</td>
+            </tr>
+            <tr bgcolor="#ffffff">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form id="muj-form">
+        <input type="text" placeholder="Název deskovky" id="deskovka-nazev" name="deskovkaNazev">
+        <input type="text" placeholder="Hodnoceni" id="deskovka-hodnoceni" name="deskovkaHodnoceni">
+        <input type="submit" value="odeslat na recenzování">
+    </form>
+
+    <div id="results">
+
+    </div>
+
+    <div id="konec">
+        <h2>
+            <a href="index.html">hlavni stranka</a>
+        </h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
