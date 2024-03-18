@@ -1,11 +1,26 @@
 #konec {
-    font-size:2rem;
+    font-size:4rem;
     text-align: center;
     margin: 4rem;
-    color: black;
+    background-color: black;
+    
+}
+
+#konec:hover {
+   background-color: white;
+}
+
+#konec a{
+    color:red
 }
 
 #muj-form {
     font-size: x-large;
     color: red;
 }
+#konec a:hover{
+    color:blue
+}
+
+
+
